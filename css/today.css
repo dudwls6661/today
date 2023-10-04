@@ -1,0 +1,1031 @@
+@import url('https://fonts.googlsapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    transition: all 0.7s;
+}
+li{
+    list-style: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.noto{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.baemin{
+    font-family: 'BMJUA';
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #35c5f0;
+}
+.slick-prev,
+.slick-next{
+    opacity: 0;
+}
+
+header .top{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    max-width: 1100px;
+
+}
+
+header .top .second{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    justify-content: right;
+}
+header .top .sch{
+    width: 40%;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding-right: 10px;
+    margin: 9px 0;
+    
+    
+
+}
+.sch>a img{
+   float: right;
+   margin: 3px 0;
+}
+header .top ul{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+header .top ul li{
+    padding: 0 10px;
+    color: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.main{
+    margin-bottom: 100px;
+}
+.btn{
+    width: 100%;
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 30px;
+    
+}
+.btn .nav{
+    width: 80%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    max-width: 1100px;
+    
+}
+.btn .nav ul{
+    display: flex;
+    line-height: 60px;
+}
+
+.btn .nav ul li{
+    padding-right: 12px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.btn .nav select{
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border: none;
+    
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 80px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.sale{
+    margin-bottom: 100px;
+}
+.sale h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'BMJUA';
+
+}
+.sale h1 span{
+    color: #35c5f0;
+}
+.sale .float {
+    width: 85%;
+    overflow: hidden;
+    margin: auto;
+    max-width:1130px;
+    
+}
+.sale .float a{
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.sale .call{
+    margin-right: 15px;
+}
+.sale .call .before{
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+.sale .call .baemin span{
+    color: #35c5f0;
+}
+.teak{
+    /* width: 59%; */
+    width: 90%;
+    margin: auto;
+    max-width:1100px;
+    
+  
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1 */
+
+.db{
+   
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.col-xl-6 .imgbox1{
+    
+    position: relative;
+    margin-bottom: 10px;
+}
+
+
+.col-xl-6 .imgbox1 p span{
+    color: #35c5f0;
+}
+
+.col-xl-6 .imgbox1 p{
+    position: absolute;
+    font-family: 'BMJUA';
+    font-size: 1.5rem;
+    left: 20px;
+    top: 10px;
+}
+
+.col-xl-6 .imgbox2{
+    
+    position: relative;
+    margin-right: 10px;
+}
+
+.col-xl-6 .imgbox2 p{
+    position: absolute;
+    font-family: 'BMJUA';
+    left: 10px;
+    top: 10px;
+    
+}
+
+.col-xl-6 .imgbox3{
+    
+    position: relative;
+}
+
+.col-xl-6 .imgbox3 p{
+    position: absolute;
+    font-family: 'BMJUA';
+    left: 10px;
+    top: 10px;
+}
+
+.ppr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.ppr h1{
+    font-size: 1.7rem;
+    font-family: 'BMJUA';
+    margin: 5px 0;
+
+    
+}
+
+.slick .text{
+   
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'BMJUA';
+}
+.slick .text a{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.slick .text p{
+    margin-top: 20px;
+    font-size: 1.7rem;
+}
+.slick .text p span{
+    color: #35c5f0;
+}
+.cate{
+    margin-bottom: 100px;
+}
+.cate .gory{
+   text-align: center;
+  
+}
+
+.cate .gory img{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.tti{
+    margin-bottom: 100px;
+    width: 100%;
+    background-color: #05cbf6;
+}
+.tti img{
+    margin: auto;
+}
+.new{
+    margin-bottom: 100px;
+}
+.new .text{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.new .text p{
+    font-family: 'BMJUA';
+    font-size: 1.6rem;
+    margin: 8px 0;
+}
+
+
+.new .col-xl-3{
+    margin-bottom: 25px;
+}
+
+.new .col-xl-3 .noto{
+    margin-top: 5px;
+}
+
+.new .col-xl-3 .baemin{
+    margin-top: 10px;
+}
+.qqq{
+    margin-top: 5px;
+}
+.slick .qqqslick a img{
+    margin: auto;
+}
+.slick .qqqslick .qqq .noto{
+    text-align: center;
+}
+
+.slick .qqqslick .qqq .baemin{
+    text-align: center;
+}
+.slick-prev:before{
+    z-index: 99;
+    margin-left: 20px;
+}
+.slick-next:before{
+    margin-left: 30px;
+}
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: #dff0fa;
+}
+
+footer .big{
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .big .left{
+    flex: 1 1 6;
+    height: 300px;
+    padding-left: 100px;
+    width: 55%;
+    
+    margin-top: 100px;
+    border-right: 1px solid #ccc;
+}
+
+footer .juso{
+    width: 100%;
+    overflow: hidden;
+    
+    font-family: 'BMJUA';
+    font-size: 0.9rem;
+    margin-bottom: 120px;
+    color: #6a6a6a;
+    
+}
+footer .big{
+    max-width: 1300px
+}
+footer .menu{
+    display: flex;
+}
+
+footer .menu ul{
+    padding: 0 20px;
+    font-size: 0.9rem;
+    border-left: 1px solid #ccc;
+    color: #6a6a6a;
+    
+}
+footer .menu ul li{
+    line-height: 30px;
+}
+footer .menu ul:first-child{
+    padding-left: 0;
+    border: none;
+}
+footer .big .right{
+    flex: 1 1 4;
+   padding-right: 100px;
+}
+
+footer .big .right .go{
+    margin-top: 90px;
+    color: #6a6a6a;
+    line-height: 24px;
+}
+
+footer .big .right .go .center{
+    font-size: 1.5rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+footer .big .right .go .num{
+    font-family: 'BMJUA';
+    font-size: 2rem;
+    
+}
+
+footer .big .right .go .time{
+    font-size: 1rem;
+}
+footer .big .right .icon{
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 65px;
+    
+}
+
+footer .big .right .icon img{
+    padding-right: 20px;
+}
+footer .big .right>p{
+    font-size: 0.9rem;
+    color: #6a6a6a;
+}
+
+
+
+.qqq .noto,.baemin p{
+    font-size: 1.2rem;
+}
+
+
+.best{
+    width: 90%;
+    max-width:1100px; 
+    margin: auto;
+    margin-bottom: 100px;
+}
+.best .text{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.best .text .blue{
+    font-family: 'BMJUA';
+    font-size: 1.5rem;
+}
+.best .text .blue span{
+    color: #05cbf6;
+}
+.best .text .blue p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.9rem;
+}
+.best .esimg .btimg{
+    margin-right: 20px;
+    
+}
+
+
+@media screen and (min-width:1023px) and (max-width:1200px) {
+    body{font-size: 14px;}
+    .best{width: 950px;}
+    .teak{width: 950px;}
+    .sale .float{width: 950px;}
+
+    header .top ul img{width: 20px;}
+    
+    .banner img{min-height: 230px;}
+    header .top ul
+    .btn .nav{width: 950px;}
+    .btn .nav ul li{font-size: 14px;}
+    .btn .nav select{font-size: 14px;}
+
+    .sale h1{font-size: 2.4rem;}
+
+    .ppr h1{font-size: 1.5rem;}
+
+    .slick .text p{font-size: 1.5rem;}
+
+    .col-xl-6 .imgbox1 p{font-size: 1.4rem;}
+
+    .qqq{margin-top: 1px;}
+    .qqq .noto,.baemin p{font-size: 1.1rem;}
+    
+    .cate .gory img{width: 88px;}
+
+    .new .text p{font-size: 1.5rem;}
+
+
+    .best .text .blue{font-size: 1.4rem;}
+
+    .best .text .blue p{font-size: 0.8rem;}
+    
+    footer{
+        height:350px;
+    }
+    footer .juso{
+        font-size: 1rem;
+        margin-bottom: 38px;
+        
+    }
+    
+
+
+    footer .big .left{
+        display: block;
+        border: none;
+        width: 70%;
+        height: 200px;
+       
+    }
+    footer .big .right{
+        width: 30%;
+       
+        
+        
+        
+    }
+    /* footer 밑에  */
+    footer .big .right .go{
+        margin-top: 100px;
+        
+        
+       
+    }
+    footer .big .right .icon{
+       display: none;
+        
+    }
+    
+    footer .big .right>p{
+        display: none;
+    }
+    /* fooer 밑에 */
+    footer .menu{
+        display: flex;
+    }
+    
+    footer .menu ul{
+        padding: 0 20px;
+        border:none;
+        color: #6a6a6a;
+        display: flex;
+        align-items: center;
+    }
+    footer .menu ul:nth-child(2){display: none;}
+    footer .menu ul:nth-child(3){display: none;}
+    
+    footer .menu ul:first-child{
+        display: flex;
+        padding:0;
+    }
+    footer .menu ul:first-child li{
+        padding-right: 20px;
+        }
+    footer .menu ul:last-child{
+        display: flex;
+        padding-left: 0;
+    }
+    footer .menu ul:last-child li{
+    padding-right: 20px;
+    }
+    footer .menu ul:last-child a:nth-child(4){
+        display: none;
+    }
+   
+    
+
+    footer .menu ul{font-size: 0.8rem;}
+    footer .big .right .go .center{font-size: 1.4rem;}
+    footer .big .right .go .num{font-size: 1.9rem;}
+    
+    footer .big .right .go .time{font-size: 0.8rem;}
+
+    footer .big .right .icon img{width: 48px; }
+    
+
+}
+
+
+@media screen and (min-width:993px) and (max-width:1022px){
+    .sale .float{width: 90%;}
+
+    header .top ul img{width: 19px;}
+    .btn .nav ul li{font-size: 14px;}
+    .btn .nav select{font-size: 14px;}
+    .banner img{min-height: 200px;}
+    .sale h1{font-size: 2.4rem;}
+
+    .ppr h1{font-size: 1.5rem;}
+
+    .slick .text p{font-size: 1.5rem;}
+
+    .col-xl-6 .imgbox1 p{font-size: 1.4rem;}
+
+    .qqq{margin-top: 1px;}
+    .qqq .noto,.baemin p{font-size: 1.1rem;}
+    
+    .cate .gory img{width: 88px;}
+
+    .new .text p{font-size: 1.5rem;}
+
+
+    .best{width: 90%;}
+    
+    .best .text .blue{font-size: 1.4rem;}
+
+    .best .text .blue p{font-size: 0.8rem;}
+
+
+
+    footer{
+        height:350px;
+    }
+    footer .juso{
+        font-size: 1rem;
+        margin-bottom: 38px;
+        
+    }
+    
+
+
+    footer .big .left{
+        display: block;
+        border: none;
+        width: 70%;
+        height: 200px;
+       
+    }
+    footer .big .right{
+        width: 30%;
+       
+        
+        
+        
+    }
+    /* footer 밑에  */
+    footer .big .right .go{
+        margin-top: 100px;
+        
+        
+       
+    }
+    footer .big .right .icon{
+       display: none;
+        
+    }
+    
+    footer .big .right>p{
+        display: none;
+    }
+    /* fooer 밑에 */
+    footer .menu{
+        display: flex;
+    }
+    
+    footer .menu ul{
+        padding: 0 20px;
+        border:none;
+        color: #6a6a6a;
+        display: flex;
+        align-items: center;
+    }
+    
+    footer .menu ul:nth-child(2){display: none;}
+    footer .menu ul:nth-child(3){display: none;}
+    
+    footer .menu ul:first-child{
+        display: flex;
+        padding:0;
+    }
+    footer .menu ul:first-child li{
+        padding-right: 20px;
+        }
+    footer .menu ul:last-child{
+        display: flex;
+        padding-left: 0;
+    }
+    footer .menu ul:last-child li{
+    padding-right: 20px;
+    }
+    footer .menu ul:last-child a:nth-child(4){
+        display: none;
+    }
+   
+    
+
+    footer .menu ul{font-size: 0.8rem;}
+    footer .big .right .go .center{font-size: 1.4rem;}
+    footer .big .right .go .num{font-size: 1.9rem;}
+    
+    footer .big .right .go .time{font-size: 0.8rem;}
+
+    
+
+
+
+    
+
+
+
+
+
+    
+ 
+    
+}
+@media screen and (min-width:769px) and (max-width:992px){
+    .sale .float{width: 90%;}
+    header .top .sch{display: none;}
+    body{font-size: 14px;}
+    .teak{width:690px;}
+    
+    .banner img{min-height: 200px;}
+    header .top ul img{width: 18px;}
+
+    .btn .nav ul li{font-size: 14px;}
+    .btn .nav select{font-size: 14px;}
+
+    .sale h1{font-size: 2.4rem;}
+
+    .ppr h1{font-size: 1.5rem;}
+
+    .slick .text p{font-size: 1.5rem;}
+
+    .col-xl-6 .imgbox1 p{font-size: 2rem;}
+    .col-xl-6 .imgbox2 p{font-size: 1.2rem;}
+    .col-xl-6 .imgbox3 p{font-size: 1.2rem;}
+
+    .qqq{margin-top: 1px;}
+    .qqq .noto,.baemin p{font-size: 1.1rem;}
+    
+    .cate .gory img{width: 88px;}
+
+    .new .text p{font-size: 1.5rem;}
+    .tti img{min-height: 40px;}
+    .best{
+        width: 90%;
+        max-width: 690px;
+    }
+    .best .text .blue{font-size: 1.4rem;}
+
+    .best .text .blue p{font-size: 0.8rem;}
+
+    footer{
+        height:430px;
+        
+    }
+    footer .juso{
+        font-size: 1.1rem;
+        margin-bottom: 38px;
+        
+    }
+    
+
+
+    footer .big .left{
+        display: block;
+        border: none;
+        width: 100%;
+        height: 300px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    footer .big .right{
+        display: none;
+        
+        
+    }
+    
+    
+    /* fooer 밑에 */
+    footer .menu{
+        display: flex;
+    }
+    
+    footer .menu ul{
+        padding: 0 30px;
+        color: #6a6a6a;
+    }
+    
+    footer .menu ul:first-child{
+        padding-right: 0;
+    }
+    footer .menu ul{font-size: 0.8rem;}
+    
+    
+
+
+
+
+
+
+    .slick .text{margin-top: 100px;}
+    .col-xl-6 .imgbox1 img{
+        width: 100%;
+    }
+    .col-xl-6 .imgbox2 img{
+        width: 330px;
+        height: 280px;
+    }
+    .col-xl-6 .imgbox3 img{
+        width: 350px;
+        height: 280px;
+    }
+
+
+
+}
+
+@media screen and (max-width:768px){
+
+
+    .teak{width:420px;}
+    .sale .float{width: 420px;}
+
+    header .top ul img{width: 17px;}
+    header .top ul li:nth-child(1){display: none;}
+    header .top ul li:nth-child(2){display: none;}
+    header .top ul li:nth-child(3){display: none;}
+    header .top .sch{display: none;}
+    body{font-size: 11px;}
+
+
+    .banner{
+        
+        margin-bottom: 80px;
+    }
+    .banner img{min-height: 150px;}
+    .btn .nav ul{
+        line-height: 40px;
+        justify-content: space-between;
+    }
+    .btn .nav{
+        height: 40px;
+        display: block;
+    }
+
+    .btn .nav ul li{font-size: 11px;}
+    .btn .nav select{display: none;}
+
+    .sale h1{font-size: 2.2rem;}
+
+    .ppr h1{font-size: 1.2rem;}
+
+    .slick .text p{font-size: 1.2rem;}
+    .slick .text{margin-top: 60px;}
+    .col-xl-6 .imgbox1 p{font-size: 1.8rem;}
+    .col-xl-6 .imgbox2 p{font-size: 1rem;}
+    .col-xl-6 .imgbox3 p{font-size: 1rem;}
+
+    .qqq{margin-top: 1px;}
+    .qqq .noto,.baemin p{font-size: 1rem;}
+    
+    .cate .gory img{width: 86px;}
+
+    .new .text p{font-size: 1.2rem;}
+    .tti img{min-height: 30px;}
+    .best{
+        width: 85%;
+        max-width: 510px;
+}
+    .best .text .blue{font-size: 1.2rem;}
+
+    .best .text .blue p{font-size: 0.6rem;}
+
+    footer{
+        height:430px;
+        
+    }
+    footer .juso{
+        font-size: 1rem;
+        margin-bottom: 40px;
+        
+        
+    }
+    
+
+
+    footer .big .left{
+        display: block;
+        border: none;
+        width: 100%;
+        height: 300px;
+        margin: auto;
+        margin-top: 100px;
+        padding-right: 50px;
+        padding-left: 50px;
+        box-sizing: border-box;
+        
+    }
+    footer .big .right{
+        display: none;
+        
+        
+    }
+    
+    
+    /* fooer 밑에 */
+    footer .menu{
+        
+    }
+    
+    footer .menu ul{
+       
+        
+        color: #6a6a6a;
+        margin: auto;
+       
+    }
+    footer .menu ul:nth-child(1){
+       
+      }
+    footer .menu ul:nth-child(2){
+      
+    }
+    
+    footer .menu ul{font-size: 0.7rem;}
+    /* footer .menu ul:nth-child(3){display: none;} */
+
+
+
+
+    .new .col-xl-3:nth-child(5) .baemin{padding-top: 18px;}
+
+
+
+}
+@media screen and (max-width:548px){
+    footer .menu ul:nth-child(3){display: none;}
+}
+@media screen and (max-width:480px){
+    .teak{width:85%;}
+    .sale .float{width: 90%;}
+
+    header .top{width: 90%;}
+    header .top ul img{width: 16px;}
+
+    header .top .sch{display: none;}
+    body{font-size: 10px;}
+    
+    .btn .nav{
+        width: 95%;
+        padding: 0 10px;
+    }
+    .btn .nav ul li{font-size: 10px;}
+    .btn .nav select{font-size: 10px;}
+
+    .sale h1{font-size: 1.8rem;}
+
+    .ppr h1{font-size: 1.2rem;}
+    .banner img{min-height: 120px;}
+    .slick .text p{font-size: 1.2rem;}
+
+    .col-xl-6 .imgbox1 p{font-size: 1.2rem;}
+    .col-xl-6 .imgbox2 p{font-size: 0.8rem;}
+    .col-xl-6 .imgbox3 p{font-size: 0.8rem;}
+
+    .qqq{margin-top: 1px;}
+    .qqq .noto,.baemin p{font-size: 1rem;}
+    
+    .cate .gory img{width: 86px;}
+
+    .new .text p{font-size: 1.2rem;}
+    .tti img{min-height: 25px;}
+    .best{
+        width: 90%;
+        max-width: 510px;
+}
+    .best .text .blue{font-size: 1.2rem;}
+
+    .best .text .blue p{font-size: 0.6rem;}
+
+    footer{
+        height:430px;
+        
+    }
+    footer .juso{
+        font-size: 0.8rem;
+        margin-bottom: 38px; 
+    }
+    footer .big .left{
+        display: block;
+        border: none;
+        width: 100%;
+        height: 300px;
+        margin: auto;
+        margin-top: 100px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    footer .big .right{
+        display: none;  
+    }
+    /* fooer 밑에 */
+    footer .menu{
+        display: flex;
+    }
+    footer .menu ul{
+        padding: 0 30px;
+        color: #6a6a6a;
+    }
+    footer .menu ul:first-child{
+        padding-right: 0;
+        
+    }
+    footer .menu ul:last-child{
+        padding-right: 0px;
+    }
+    footer .menu ul{
+        font-size: 0.5rem;
+        
+    }
+    footer .menu ul li{
+        /* width: 90px; */
+    }
+footer .menu ul:nth-child(3){display: none;}
+
+    .new .col-xl-3:nth-child(5) .baemin{padding-top: 18px;}
+}

@@ -1,0 +1,966 @@
+@import url('https://fonts.googlsapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.noto{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.baemin{
+    font-family: 'BMJUA';
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #35c5f0;
+}
+header .top{
+    width: 63.16%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+
+}
+
+header .top .second{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    justify-content: right;
+}
+header .top .sch{
+    width: 40%;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding-right: 10px;
+    margin: 9px 0;
+    
+    
+
+}
+.sch>a img{
+   float: right;
+   margin: 3px 0;
+}
+header .top ul{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+header .top ul li{
+    padding: 0 10px;
+    color: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.main{
+    margin-bottom: 100px;
+}
+.btn{
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+.btn .nav{
+    width: 63.16%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+.btn .nav ul{
+    display: flex;
+    line-height: 60px;
+}
+
+.btn .nav ul li{
+    padding-right: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.btn .nav select{
+    margin-right: 10px;
+    margin-bottom: 15px;
+    
+}
+
+.banner{
+    width: 100%;
+    
+    margin-bottom: 80px;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.sale{
+    margin-bottom: 100px;
+}
+.sale h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'BMJUA';
+
+}
+.sale h1 span{
+    color: #35c5f0;
+}
+.sale .float {
+    width: 1100px;
+    overflow: hidden;
+    margin: auto;
+    
+}
+.sale .float a{
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.sale .call .before{
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+.sale .call .baemin span{
+    color: #35c5f0;
+}
+.teak{
+    /* width: 59%; */
+    width: 1130px;
+    margin: auto;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1 */
+
+.db{
+   
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.col-xl-6 .imgbox1{
+    
+    position: relative;
+    margin-bottom: 10px;
+}
+
+
+.col-xl-6 .imgbox1 p span{
+    color: #35c5f0;
+}
+
+.col-xl-6 .imgbox1 p{
+    position: absolute;
+    font-family: 'BMJUA';
+    font-size: 24px;
+    left: 20px;
+    top: 10px;
+}
+
+.col-xl-6 .imgbox2{
+    
+    position: relative;
+    margin-right: 10px;
+}
+
+.col-xl-6 .imgbox2 p{
+    position: absolute;
+    font-family: 'BMJUA';
+    left: 10px;
+    top: 10px;
+    
+}
+
+.col-xl-6 .imgbox3{
+    
+    position: relative;
+}
+
+.col-xl-6 .imgbox3 p{
+    position: absolute;
+    font-family: 'BMJUA';
+    left: 10px;
+    top: 10px;
+}
+
+.ppr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.ppr h1{
+    font-size: 25px;
+    font-family: 'BMJUA';
+    margin: 5px 0;
+
+    
+}
+
+.slick .text{
+   
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'BMJUA';
+    
+    
+}
+.slick .text a{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.slick .text p{
+    font-size: 25px;
+}
+.slick .text p span{
+    color: #35c5f0;
+}
+.cate{
+    margin-bottom: 100px;
+}
+.cate .gory{
+   text-align: center;
+  
+}
+
+.cate .gory img{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.tti{
+    margin-bottom: 100px;
+    width: 100%;
+    background-color: #05cbf6;
+}
+.new{
+    margin-bottom: 100px;
+}
+.new .text{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.new .text p{
+    font-family: 'BMJUA';
+    font-size: 25px;
+    margin: 8px 0;
+}
+
+
+.new .col-xl-3{
+    margin-bottom: 25px;
+}
+
+.new .col-xl-3 .noto{
+    margin-top: 5px;
+}
+
+.new .col-xl-3 .baemin{
+    margin-top: 10px;
+}
+
+.slick .noto{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.slick .baemin{
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: #dff0fa;
+}
+
+footer .big{
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .big .left{
+    flex: 1 1 6;
+    height: 300px;
+    padding-left: 100px;
+    width: 55%;
+    
+    margin-top: 100px;
+    border-right: 1px solid #ccc;
+}
+
+footer .juso{
+    width: 100%;
+    overflow: hidden;
+    
+    font-family: 'BMJUA';
+    font-size: 14px;
+    margin-bottom: 120px;
+    color: #6a6a6a;
+    
+}
+
+footer .menu{
+    display: flex;
+}
+
+footer .menu ul{
+    padding: 0 20px;
+    font-size: 14px;
+    border-left: 1px solid #ccc;
+    color: #6a6a6a;
+    
+}
+footer .menu ul li{
+    line-height: 30px;
+}
+footer .menu ul:first-child{
+    padding-left: 0;
+    border: none;
+}
+footer .big .right{
+    flex: 1 1 4;
+   padding-right: 100px;
+}
+
+footer .big .right .go{
+    margin-top: 90px;
+    color: #6a6a6a;
+}
+
+footer .big .right .go .center{
+    font-size: 24px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+footer .big .right .go span{
+    font-family: 'BMJUA';
+    font-size: 30px;
+}
+
+footer .big .right .icon{
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 65px;
+    
+}
+
+footer .big .right .icon img{
+    padding-right: 20px;
+}
+footer .big .right>p{
+    font-size: 14px;
+    color: #6a6a6a;
+}
+
+
+
+.ccc .noto,.baemin{
+    font-size: 20px;
+}
+
+
+.best{
+    width: 90%;
+    max-width:1100px; 
+    margin: auto;
+    margin-bottom: 100px;
+}
+.best .text{
+    width: 95%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.best .text .blue{
+    font-family: 'BMJUA';
+    font-size: 24px;
+}
+.best .text .blue span{
+    color: #05cbf6;
+}
+.best .text .blue p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+}
+.best .esimg .btimg{
+    margin-right: 20px;
+    
+}
+
+
+@media screen and (min-width:1023px) and (max-width:1200px) {
+    
+    header .top ul li{
+        
+        font-size: 12px;
+    }
+    header .top ul li img{width: 16px;}
+    header .top ul li img:last-child{width: 20px;}
+   
+    header .top{
+        min-width:70%;
+    }
+    header .top>a img{
+        width: 147px;
+    }
+    header .top .sch{
+        width: 250px;
+        font-size: 14px;
+        
+    }
+    .sch>a img{
+        margin-left: 210px;
+    }
+
+    .btn .nav{
+       
+        height: 50px; 
+    }
+    .btn .nav ul{
+        line-height: 50px;
+    }
+    .btn .nav ul li{font-size: 14px;}
+    .btn .nav select{font-size: 14px;}
+
+    .banner img{
+        min-height: 200px;
+    }
+    
+    .sale h1{font-size: 2rem;}
+    .sale .float a{font-size: 14px;}
+    .sale .float{width: 880px;}
+    
+    .teak{
+        width: 90%;
+        max-width:1100px;
+    }
+    .teak .call{
+        margin-right: 10px;
+    }
+   
+    
+    .sale .call .noto{font-size: 14px;}
+    .sale .call .before{font-size: 14px;}
+    .sale .call .baemin{font-size: 16px;}
+    
+    .ppr h1{font-size: 21px;}
+    .ppr a{font-size: 14px;}
+    .col-xl-6 .imgbox1 p{font-size: 20px;}
+    .col-xl-6 .imgbox2 p{font-size: 14px;}
+    .col-xl-6 .imgbox3 p{font-size: 14px;}
+    
+    .slick .text p{font-size: 21px;}
+    .slick .text a{font-size: 14px;}
+    .slick .ccc .noto{font-size: 16px;}
+    .slick .ccc .baemin{font-size: 16px;}
+    
+    
+    
+    .cate .gory p{font-size: 14px;}
+
+    .tti img{
+        min-width: 80%;
+        min-height: 50px;
+    }
+
+    .new .text p{font-size: 21px;}
+    .new .col-xl-3 .noto{font-size: 13px;}
+    .new .col-xl-3 .baemin{font-size: 14px;}
+
+    
+    .best .text .blue{font-size: 20px;}
+    .best .text .blue p{font-size: 12px;}
+    .best .text>a{font-size: 12px;}
+    .best .esimg{
+        
+        margin: auto;
+        }
+    .best .text{
+        
+        margin: auto;
+        
+    }
+    
+    footer{height: 400px;}
+    footer .big .left{
+        margin: 50px 0;
+        
+    }
+    footer .juso{font-size: 12px;}
+    footer .menu ul li{font-size: 12px;}
+    footer .big .right .go p{font-size: 16px;}
+    footer .big .right .go span{font-size: 25px;}
+    footer .big .right .go .center{font-size: 20px;}
+    footer .big .right>p{font-size: 12px;}
+    footer .big .right .go{
+        margin-top: 45px;
+    }
+    footer .big .right .icon img{
+        width: 50px;
+       
+    }
+    
+}
+
+
+@media screen and (min-width:768px) and (max-width:1022px){
+    header .top ul li{font-size: 12px;}
+    header .top ul li img{width: 14px;}
+    header .top ul li img:last-child{width: 18px;}
+    header .top{
+        
+    }
+    header .top>a img{
+        width: 127px;
+    }
+    header .top .sch{
+        width: 200px;
+        height: 30px;
+        font-size: 10px;
+    }
+    header .top{
+        min-width: 80%;
+    }
+    .sch>a img{
+        width: 20px;
+        margin-left: 170px;
+    }
+
+    .btn .nav{
+        width: 800px;
+        height: 40px; 
+    }
+    .btn .nav ul{
+        line-height: 40px;
+    }
+    .btn .nav ul li{font-size: 12px;}
+    .btn .nav select{font-size: 12px;}
+
+    .banner img{
+        min-height: 200px;
+    }
+    
+    .sale h1{font-size: 1.5rem;}
+    .sale .float a{font-size: 12px;}
+    .sale .float{width: 680px;}
+    .teak{
+        width: 700px;
+    }
+    .teak .call{
+        margin-right: 10px;
+    }
+    
+    .sale .call .noto{font-size: 12px;}
+    .sale .call .before{font-size: 12px;}
+    .sale .call .baemin{font-size: 14px;}
+    
+    .ppr h1{font-size: 21px;}
+    .ppr a{font-size: 14px;}
+    .col-xl-6{
+
+        margin-bottom: 100px;
+    }
+    .col-xl-6 .imgbox1 img{
+        width: 100%;
+    }
+    .col-xl-6 .imgbox2 img{
+        width: 330px;
+        height: 249.99px;
+    }
+    .col-xl-6 .imgbox3 img{
+        width: 350px;
+        height: 249.99px;
+    }
+    
+   
+    .slick{
+        margin-bottom: 0px;
+    }
+    .col-xl-6 .imgbox1 p{font-size: 20px;}
+    .col-xl-6 .imgbox2 p{font-size: 16px;}
+    .col-xl-6 .imgbox3 p{font-size: 16px;}
+    
+    .slick .text p{font-size: 21px;}
+    .slick .text a{font-size: 14px;}
+    .slick .ccc .noto{font-size: 16px;}
+    .slick .ccc .baemin{font-size: 16px;}
+    
+    
+    
+    .cate .gory p{font-size: 12px;}
+
+    .tti img{
+        min-height: 40px;
+    }
+
+    .new .text p{font-size: 21px;}
+    .new .col-xl-3 .noto{font-size: 12px;}
+    .new .col-xl-3 .baemin{font-size: 12px;}
+    
+    .best .text .blue{font-size: 18px;}
+    .best .text .blue p{font-size: 10px;}
+    .best .text>a{font-size: 10px;}
+
+    .best{width: 700px;}
+    
+    
+    
+    .best .esimg{
+        margin: auto;
+        width: 700px;}
+    .best .text{
+        width: 680px;
+
+        
+    }
+    
+    footer{height: 400px;}
+    footer .big .left{
+        
+        margin: 50px 0;
+        
+    }
+    footer .juso{font-size: 10px;}
+    footer .menu ul li{font-size: 10px;}
+    footer .big .right .go p{font-size: 14px;}
+    footer .big .right .go span{font-size: 22px;}
+    footer .big .right .go .center{font-size: 18px;}
+    footer .big .right>p{font-size: 10px;}
+    footer .big .right .go{
+        margin-top: 55px;
+    }
+    footer .big .right .icon img{
+        width: 40px;
+        margin-bottom: 20px;
+       
+    }
+    
+   
+}
+
+@media screen and (max-width:767px){
+    header{
+        height: 50px;
+    }
+    header .top{
+        height: 50px;
+    }
+    header .top ul li{font-size: 10px;}
+    header .top ul li img{width: 12px;}
+    header .top ul li img:last-child{width: 16px;}
+    header .top{
+        width: 80%;
+    }
+    header .top>a img{
+        width: 100px;
+    }
+    header .top .sch{
+       display: none;
+    }
+   
+
+    .btn .nav{
+        width: 100%;
+        height: 30px; 
+    }
+    .btn .nav ul{
+        line-height: 30px;
+    }
+    .btn .nav ul li{font-size: 10px;}
+    .btn .nav select{font-size: 10px;}
+
+    .banner img{
+        min-height: 150px;
+    }
+    
+    .sale h1{font-size: 1rem;}
+    .sale .float a{font-size: 10px;}
+    .sale .float{width: 530px;}
+    .teak{
+        width: 550px;
+    }
+    .teak .call{
+        margin-right: 10px;
+    }
+    
+    .sale .call .noto{font-size: 10px;}
+    .sale .call .before{font-size: 10px;}
+    .sale .call .baemin{font-size: 12px;}
+    
+    .ppr h1{font-size: 18px;}
+    .ppr a{font-size: 12px;}
+    .col-xl-6{
+
+        margin-bottom: 100px;
+    }
+    .col-xl-6 .imgbox1 img{
+        width: 100%;
+    }
+    .col-xl-6 .imgbox2 img{
+        width: 330px;
+        height: 249.99px;
+    }
+    .col-xl-6 .imgbox3 img{
+        width: 350px;
+        height: 249.99px;
+    }
+    
+   
+    .slick{
+        margin-bottom: 0px;
+    }
+    .col-xl-6 .imgbox1 p{font-size: 18px;}
+    .col-xl-6 .imgbox2 p{font-size: 14px;}
+    .col-xl-6 .imgbox3 p{font-size: 14px;}
+    
+    .slick .text p{font-size: 18px;}
+    .slick .text a{font-size: 12px;}
+    .slick .ccc .noto{font-size: 14px;}
+    .slick .ccc .baemin{font-size: 14px;}
+    
+    
+    
+    .cate .gory p{font-size: 10px;}
+    .tti img{
+        min-height: 40px;
+        
+    }
+
+    .new .text p{font-size: 18px;}
+    .new .col-xl-3 .noto{font-size: 10px;}
+    .new .col-xl-3 .baemin{font-size: 10px;}
+    
+    .best .text .blue{font-size: 16px;}
+    .best .text .blue p{font-size: 8px;}
+    .best .text>a{font-size: 8px;}
+
+    .best{width: 550px;}
+    
+    
+    
+    .best .esimg{
+        margin: auto;
+        width: 550px;}
+    .best .text{
+        width: 530px;
+
+        
+    }
+    
+    footer{height: 300px;}
+    footer .big .left{
+       display: none;
+    }
+    footer .big .right{
+        width: 650px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+    }
+    footer .big .right .go p{font-size: 14px;}
+    footer .big .right .go span{font-size: 20px;}
+    footer .big .right .go .center{font-size: 16px;}
+    footer .big .right>p{font-size: 10px;}
+    footer .big .right .go{
+        margin-top: 20px;
+    }
+    footer .big .right .icon img{
+        width: 40px;
+       
+       
+    }
+    
+   
+}
+
+@media screen and (max-width:480px){
+    header{
+        height: 50px;
+    }
+    header .top{
+        height: 50px;
+    }
+    header .top ul li{font-size: 10px;}
+    header .top ul li img{width: 10px;}
+    header .top ul li img:last-child{width: 14px;}
+    header .top{
+        width: 90%;
+    }
+    header .top>a img{
+        width: 100px;
+    }
+    header .top .sch{
+       display: none;
+    }
+   
+
+    .btn .nav{
+        width: 400px;
+        height: 30px; 
+    }
+    .btn .nav ul{
+        line-height: 30px;
+    }
+    .btn .nav ul li{
+        padding-right: 10px;
+        font-size: 6px;
+    }
+    .btn .nav select{
+        display: none;
+        font-size: 8px;
+    }
+
+    .banner{
+        margin-bottom: 30px;
+    }
+    .banner img{
+        min-height: 150px;
+    }
+    
+    .sale h1{
+        margin-bottom: 0;
+        font-size: 1rem;
+    }
+    .sale .float a{font-size: 8px;}
+    .sale .float{width: 350px;}
+    .teak{
+        width: 350px;
+        
+    }
+    .teak .call{
+        margin-right: 10px;
+    }
+    
+    .sale .call .noto{font-size: 5px;}
+    .sale .call .before{font-size:8px;}
+    .sale .call .baemin{font-size: 10px;}
+    
+    .ppr h1{font-size: 16px;}
+    .ppr a{font-size: 10px;}
+    .col-xl-6{
+
+        margin-bottom: 100px;
+    }
+    .col-xl-6 .imgbox1 img{
+        width: 100%;
+    }
+    .col-xl-6 .imgbox2 img{
+       height: 200px;
+        
+    }
+    .col-xl-6 .imgbox3 img{
+        height: 200px;
+        
+    }
+    
+   
+    .slick{
+        margin-bottom: 0px;
+    }
+    .col-xl-6 .imgbox1 p{font-size: 18px;}
+    .col-xl-6 .imgbox2 p{font-size: 14px;}
+    .col-xl-6 .imgbox3 p{font-size: 14px;}
+    
+    .slick .text p{font-size: 18px;}
+    .slick .text a{font-size: 12px;}
+    .slick .ccc .noto{font-size: 14px;}
+    .slick .ccc .baemin{font-size: 14px;}
+    
+    
+    
+    .cate .gory p{font-size: 10px;}
+    .tti img{
+       
+        min-height: 40px;
+        
+    }
+
+    .new .text p{font-size: 18px;}
+    .new .col-xl-3 .noto{font-size: 10px;}
+    .new .col-xl-3 .baemin{font-size: 10px;}
+    
+    .best .text .blue{font-size: 16px;}
+    .best .text .blue p{font-size: 8px;}
+    .best .text>a{font-size: 8px;}
+
+    .best{width: 350px;}
+    
+    
+    
+    .best .esimg{
+        margin: auto;
+        width: 350px;}
+    .best .text{
+        width: 330px;
+
+        
+    }
+    
+    footer{height: 300px;}
+    footer .big .left{
+       display: none;
+    }
+    footer .big .right{
+        width: 650px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+    }
+    footer .big .right .go p{font-size: 14px;}
+    footer .big .right .go span{font-size: 20px;}
+    footer .big .right .go .center{font-size: 16px;}
+    footer .big .right>p{font-size: 10px;}
+    footer .big .right .go{
+        margin-top: 20px;
+    }
+    footer .big .right .icon img{
+        width: 40px;
+       
+       
+    }
+}
