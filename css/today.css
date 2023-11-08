@@ -38,6 +38,10 @@ header{
 .slick-prev,
 .slick-next{
     opacity: 0;
+    position: absolute;
+    z-index: -99999;
+    top: 30px;
+    left: 30px;
 }
 
 header .top{
